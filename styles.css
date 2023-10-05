@@ -107,7 +107,7 @@ table {
     padding:23px
     }
     
-    #menuToggle {
+    #menu-toggle {
     -moz-user-select:none;
     -ms-user-select:none;
     -webkit-user-select:none;
@@ -120,7 +120,7 @@ table {
     z-index:1
     }
     
-    #menuToggle a {
+    #menu-toggle a {
     color:#232323;
     text-decoration:none;
     width:100%
@@ -131,11 +131,11 @@ table {
     width:100%
     }
     
-    #menuToggle a:hover {
-    background-color:#ff0
+    #menu-toggle a:hover {
+    background-color:#F6D64A;
     }
     
-    #menuToggle input {
+    #menu-toggle input {
     -webkit-touch-callout:none;
     cursor:pointer;
     display:block;
@@ -150,13 +150,12 @@ table {
     z-index:2
     }
     
-    #menuToggle label {
+    #menu-toggle label {
     -ms-transform-origin:4px 0;
     -o-transition:all .3s ease;
     -webkit-transform-origin:4px 0;
     -webkit-transition:all .3s ease;
     background:#F6D64A;
-    background-color:#ff0;
     display:block;
     display:block;
     float:right;
@@ -173,7 +172,7 @@ table {
     z-index:40
     }
     
-    #menuToggle input:checked+label+ul {
+    #menu-toggle input:checked+label+ul {
     background:#55BCD5;
     display:flex;
     flex-direction:column;
@@ -185,7 +184,7 @@ table {
     z-index:31
     }
     
-    #menuToggle input:checked+label+ul li {
+    #menu-toggle input:checked+label+ul li {
     border-bottom:solid;
     height:60px;
     padding:unset;
@@ -194,11 +193,11 @@ table {
     width:100%
     }
     
-    menuToggle input:checked+nav {
+    #menu-toggle input:checked+nav {
     width:100%
     }
     
-    #menuToggle input:checked+label {
+    #menu-toggle input:checked+label {
     background-color:#000;
     color:#fff;
     display:flex;
@@ -209,7 +208,7 @@ table {
     width:100%
     }
     
-    #menu {
+    ul {
     -o-transition:left .3s ease;
     -webkit-transition:left .3s ease;
     height:294px;
@@ -223,11 +222,10 @@ table {
     }
     
     li a:hover {
-    background-color:orange;
     width:100px
     }
     
-    #menu li {
+    ul li {
     font-size:22px;
     padding:10px 0
     }
@@ -240,7 +238,7 @@ table {
     width:500px
     }
     
-    #menuToggle input:checked~ul {
+    #menu-toggle input:checked~ul {
     right:0
     }
     }
@@ -326,7 +324,7 @@ table {
     margin-top:-10px
     }
     
-    #menuToggle,nav a {
+    #menu-toggle,nav a {
     font-size:.8rem;
     font-weight:700;
     text-transform:uppercase
@@ -767,7 +765,7 @@ table {
     font-size:1.2rem
     }
     
-    #menu {
+    ul {
     position:absolute;
     right:-9px;
     top:0;
