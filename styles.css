@@ -134,7 +134,7 @@ table {
     }
     
     #menu-toggle a:hover {
-    background-color:#ff0
+    background-color:#F6D64A;
     }
     
     #menu-toggle input {
@@ -197,8 +197,8 @@ table {
     
     
     #menu-toggle input:checked+label {
-    background-color:#000;
-    color:#fff;
+    background-color:#000000;
+    color:#ffffff;
     display:flex;
     justify-content:center;
     margin-right:-11px;
@@ -221,7 +221,6 @@ table {
     }
     
     li a:hover {
-    background-color:orange;
     width:100px
     }
     
@@ -359,7 +358,7 @@ table {
     
     #plan div section {
     background-color:#55BCD5;
-    border:3px solid #fff;
+    border:3px solid #ffffff;
     border-radius:15px;
     display:grid;
     height:220px;
@@ -381,7 +380,7 @@ table {
     }
     
     #testimonials div {
-    background-color:#fff;
+    background-color:#ffffff;
     display:flex;
     flex-direction:column;
     padding-bottom:20px;
@@ -453,6 +452,9 @@ table {
     height:80px
     }
     
+    footer a{
+        color:#000000;
+    }
     footer {
     align-items:center;
     background-color:#EAEAEA;
@@ -464,12 +466,9 @@ table {
     row-gap:10px
     }
     
-    footer a {
-    color:#000
-    }
     
     form {
-    color:#333;
+    color:#000000;
     display:block;
     font:1rem Montserrat;
     margin:1rem auto;
@@ -493,7 +492,7 @@ table {
     }
     
     #destination,#travelTime {
-    background-color:#fff;
+    background-color:#ffffff;
     border:2px solid #9B26B0;
     cursor:pointer;
     font-size:1rem;
@@ -555,9 +554,6 @@ table {
     margin-top:15px
     }
     
-    input[type=submit]:hover {
-    background-color:#000
-    }
     
     #selects {
     align-items:center;
